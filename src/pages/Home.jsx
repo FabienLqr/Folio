@@ -1,5 +1,6 @@
 import Me from "../components/Me";
 import Dev from "../components/Dev";
+import Techno from "../components/Techno";
 
 function Home() {
   return (
@@ -13,8 +14,8 @@ function Home() {
         <Dev />
       </section>
       <section>
-        <h2>Section 3</h2>
-        <p>a venir</p>
+        <h2>Quels sont les techno que j&apos;utilise?</h2>
+        <Techno />
       </section>
     </>
   );
