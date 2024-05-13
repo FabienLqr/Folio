@@ -10,8 +10,10 @@ function App() {
         <h1>Portfolio</h1>
       </header>
       <Nav />
-      <button onClick={() => setCount((count) => count + 1)}>CLICK!</button>
-      <p>The button has been click {count} times.</p>
+      <section>
+        <button onClick={() => setCount((count) => count + 1)}>CLICK!</button>
+        <p>The button has been click {count} times.</p>
+      </section>
     </>
   );
 }
