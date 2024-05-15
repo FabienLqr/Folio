@@ -11,14 +11,12 @@ function Dev() {
         possibilite de faire du &quot;bbcodes&quot;, qui est une forme tres
         simplifier de code permettant de styliser son message et de faire
         quelques liens.
-        <figure>
-          <img
-            src={bbcode}
-            alt="image contenant du code sous forme de bbcode"
-          />
-          <figcaption>Voici ci dessus un exemple de bbcode</figcaption>
-        </figure>
       </p>
+      <figure>
+        <img src={bbcode} alt="image contenant du code sous forme de bbcode" />
+        <figcaption>Voici ci dessus un exemple de bbcode</figcaption>
+      </figure>
+
       <h3>Et apres?</h3>
       <p>
         Suite a la curiosite qu&apos;a fait naitre le bbcode j&apos;ai regarde

@@ -1,0 +1,17 @@
+// Techno component part start
+
+ul {
+  display: flex;
+  li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.svgImg {
+  width: 75px;
+  height: auto;
+}
+
+// Techno component part end
