@@ -121,9 +121,8 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 5px;
-  background-color: var(--prim);
+
   p {
-    background-color: var(--prim);
     display: flex;
     align-items: center;
     gap: 5px;
@@ -132,14 +131,9 @@ footer {
       box-shadow: none;
       color: inherit;
       .footImg {
-        background-color: var(--prim);
         width: 3rem;
         height: auto;
       }
-    }
-
-    .footSpan {
-      background-color: var(--prim);
     }
   }
 }
