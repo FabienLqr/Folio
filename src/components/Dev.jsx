@@ -13,7 +13,11 @@ function Dev() {
         quelques liens.
       </p>
       <figure>
-        <img src={bbcode} alt="image contenant du code sous forme de bbcode" />
+        <img
+          src={bbcode}
+          alt="image contenant du code sous forme de bbcode"
+          className="bbcode"
+        />
         <figcaption>Voici ci dessus un exemple de bbcode</figcaption>
       </figure>
 

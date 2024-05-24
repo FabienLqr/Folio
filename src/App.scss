@@ -1,7 +1,56 @@
+:root {
+  --prim: white;
+}
+
+* {
+  margin: 0;
+  background-color: grey;
+  font-size: 1.25rem;
+}
+
+header {
+  background-color: var(--prim);
+  width: 99vw;
+
+  h1 {
+    background-color: var(--prim);
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+}
+
+nav {
+  background-color: var(--prim);
+  width: 99vw;
+  a {
+    background-color: var(--prim);
+  }
+}
+
+// Main start
+main {
+  padding: 1rem;
+}
+
+//Main end
+
+// Dev component start
+
+.bbcode {
+  width: 80vw;
+  height: auto;
+}
+
+// Dev component end
+
 // Techno component part start
 
 ul {
   display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
   li {
     list-style-type: none;
     display: flex;
@@ -10,8 +59,89 @@ ul {
 }
 
 .svgImg {
-  width: 75px;
+  width: 5vw;
   height: auto;
 }
 
 // Techno component part end
+
+// Clicker section start
+
+.butSec {
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-image: url("https://cdn.pixabay.com/photo/2015/03/27/18/36/wall-695021_960_720.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5vw 30vw;
+  padding: 30px;
+  border-radius: 19px 19px 19px 19px;
+  -webkit-border-radius: 19px 19px 19px 19px;
+  -moz-border-radius: 19px 19px 19px 19px;
+  border: 4px solid rgba(31, 20, 20, 0.67);
+  color: black;
+  text-shadow: 2px 2px 1px var(--prim);
+  font-size: 2rem;
+}
+
+button {
+  font-size: 15px;
+  font-family: Arial;
+  width: 140px;
+  height: 50px;
+  border-width: 2px;
+  color: #505739;
+  border-color: #333029;
+  font-weight: bold;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 1px 0px 0px #1c1b18;
+  text-shadow: 0px 1px 0px var(--prim);
+  background: linear-gradient(#eae0c2, #ccc2a6);
+}
+
+button:hover {
+  background: linear-gradient(#ccc2a6, #eae0c2);
+}
+
+// Clicker section end
+
+// Footer start
+
+footer {
+  border-top: #1c1b18 solid;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  background-color: var(--prim);
+  p {
+    background-color: var(--prim);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    .footLink {
+      text-decoration: none;
+      box-shadow: none;
+      color: inherit;
+      .footImg {
+        background-color: var(--prim);
+        width: 3rem;
+        height: auto;
+      }
+    }
+
+    .footSpan {
+      background-color: var(--prim);
+    }
+  }
+}
+
+// Footer end

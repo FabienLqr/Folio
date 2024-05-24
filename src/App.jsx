@@ -12,9 +12,12 @@ function App() {
         <h1>Portfolio</h1>
       </header>
       <Nav />
-      <section>
+      <section className="cnt">
+        <h2 className="butSec">
+          {count > 100 ? "Unbreakable" : "Break the wall"}
+        </h2>
         <button onClick={() => setCount((count) => count + 1)}>CLICK!</button>
-        <p>The button has been click {count} times.</p>
+        <p className="butSec">The button has been click {count} times.</p>
       </section>
       <Footer />
     </>
