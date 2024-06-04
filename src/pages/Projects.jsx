@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import projects from "../data/dataProjects";
 
 function Projects() {
@@ -10,7 +12,12 @@ function Projects() {
             <img src={project.img} />
             <p>{project.desc}</p>
             <span>
-              <button>REPO</button> <button>DEPLOY</button>
+              <Link to={project.repo} target="_blank">
+                <button>REPO</button>
+              </Link>{" "}
+              <Link to={project.deploy} target="_blank">
+                <button>DEPLOY</button>
+              </Link>
             </span>
           </article>
         </section>

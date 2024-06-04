@@ -30,6 +30,9 @@
       background-color: var(--sec);
       display: flex;
       justify-content: space-around;
+      a {
+        background-color: var(--sec);
+      }
     }
   }
 }
