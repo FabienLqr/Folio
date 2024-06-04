@@ -1,0 +1,25 @@
+footer {
+  border-top: #1c1b18 solid;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    .footLink {
+      text-decoration: none;
+      box-shadow: none;
+      color: inherit;
+      .footImg {
+        width: 3rem;
+        height: auto;
+      }
+    }
+  }
+}

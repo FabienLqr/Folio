@@ -1,3 +1,7 @@
+@import "./styles/header.scss";
+@import "./styles/nav.scss";
+@import "./styles/footer.scss";
+
 :root {
   --prim: white;
 }
@@ -6,21 +10,6 @@
   margin: 0;
   background-color: grey;
   font-size: 1.25rem;
-}
-
-header {
-  width: 99vw;
-
-  h1 {
-    width: 99vw;
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-  }
-}
-
-nav {
-  width: 99vw;
 }
 
 // Main start
@@ -107,33 +96,3 @@ button:hover {
 }
 
 // Clicker section end
-
-// Footer start
-
-footer {
-  border-top: #1c1b18 solid;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 5px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-
-  p {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    .footLink {
-      text-decoration: none;
-      box-shadow: none;
-      color: inherit;
-      .footImg {
-        width: 3rem;
-        height: auto;
-      }
-    }
-  }
-}
-
-// Footer end
