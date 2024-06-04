@@ -1,4 +1,5 @@
 import DragonFlyImg from "../assets/Imgages/DragonFly.png";
+import MapImg from "../assets/Imgages/Map.png";
 
 const projects = [
   {
@@ -30,11 +31,18 @@ const projects = [
     deploy: "https://echappee-celebrement-fantasque.netlify.app/",
   },
   {
-    name: "Projects 5: Metallica",
+    name: "Project 5: Metallica",
     img: "",
     desc: "Le projet Metallica est un projet qui sert a regrouper differentes informations sur le groupe, dont les paroles des chansons ect.",
     repo: "",
     deploy: "",
+  },
+  {
+    name: "Project 6: Map",
+    img: MapImg,
+    desc: "C'est un projet test pour afficher une map avec react",
+    repo: "https://github.com/FabienLqr/TestMap",
+    deploy: "https://fabs-testmap.netlify.app/",
   },
 ];
 
