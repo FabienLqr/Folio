@@ -5,13 +5,13 @@ function Nav() {
     <>
       <nav>
         <Link to="/">
-          <button>Home</button>
+          <button>Acceuil</button>
         </Link>
         <Link to="/projects">
-          <button>Projects</button>
+          <button>Projets</button>
         </Link>
         <Link to="/me">
-          <button>Me</button>
+          <button>Moi</button>
         </Link>
       </nav>
       <main>
