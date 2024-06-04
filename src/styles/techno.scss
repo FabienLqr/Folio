@@ -12,6 +12,9 @@ ul {
     img {
       background-color: var(--sec);
     }
+    img:hover {
+      transform: translateY(-20px);
+    }
   }
 }
 
