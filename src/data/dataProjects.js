@@ -8,6 +8,7 @@ import loadImg from "../assets/Imgages/load.jpg";
 const projects = [
   {
     name: "Project 1: DragonFly",
+    type: "school",
     img: DragonFlyImg,
     desc: "DragonFly est un site qui sert a afficher l'heure de plusieurs villes du monde en simultane.",
     repo: "https://github.com/VncPsq/DragonFly",
@@ -15,6 +16,7 @@ const projects = [
   },
   {
     name: "Project 2: Star-Wild",
+    type: "school",
     img: StarWildImg,
     desc: "Star-Wild est un site a des vus pedagogiques sur le system solaire utilisant une API",
     repo: "https://github.com/WildCodeSchool-2024-02/JS-RemoteFR-CrewDragon-P2-Team3",
@@ -22,6 +24,7 @@ const projects = [
   },
   {
     name: "Project 3: Street Art Hunter",
+    type: "school",
     img: loadImg,
     desc: "Sreet Art Hunter est un site qui a pour objectif de faire bouger les jeunes qui sont trop sur leur telephone en leur faisant decouvrir l'art a travers le stret art.",
     repo: "https://github.com/WildCodeSchool-2024-02/JS-RemoteFR-CrewDragon-P3-StreetArtHunter",
@@ -29,6 +32,7 @@ const projects = [
   },
   {
     name: "Project 4: Protojam",
+    type: "school",
     img: ECFImg,
     desc: "Le protojam appele echappee celebrement fantasque est un projet repondant au sujet nature est deconnexion qui propose des voyages dans la nature avec une celibrite",
     repo: "https://github.com/WildCodeSchool-2024-02/wcs-Protojam-goupeA",
@@ -36,6 +40,7 @@ const projects = [
   },
   {
     name: "Project 5: Metallica",
+    type: "perso",
     img: loadImg,
     desc: "Le projet Metallica est un projet qui sert a regrouper differentes informations sur le groupe, dont les paroles des chansons ect.",
     repo: "",
@@ -43,6 +48,7 @@ const projects = [
   },
   {
     name: "Project 6: Map",
+    type: "perso",
     img: MapImg,
     desc: "C'est un projet test pour afficher une map avec react",
     repo: "https://github.com/FabienLqr/TestMap",
