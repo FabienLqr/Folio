@@ -2,10 +2,16 @@ ul {
   display: flex;
   justify-content: space-around;
   padding: 50px 0;
+  background-color: var(--sec);
   li {
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    background-color: var(--sec);
+
+    img {
+      background-color: var(--sec);
+    }
   }
 }
 
