@@ -1,10 +1,19 @@
 .project {
+  background-color: var(--sec);
   border: #1c1b18 solid;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  box-shadow: 8px 8px 19px -1px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 8px 8px 19px -1px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 8px 8px 19px -1px rgba(0, 0, 0, 0.41);
   padding: 10px;
   h2 {
+    background-color: var(--sec);
     color: black;
   }
   article {
+    background-color: var(--sec);
     display: flex;
     flex-direction: column;
     img {
@@ -13,9 +22,11 @@
       margin: 0 0 2vw 9vw;
     }
     p {
+      background-color: var(--sec);
       font-size: 1rem;
     }
     span {
+      background-color: var(--sec);
       display: flex;
       justify-content: space-around;
     }
