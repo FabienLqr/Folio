@@ -2,6 +2,7 @@
 @import "./styles/nav.scss";
 @import "./styles/footer.scss";
 @import "./styles/clicker.scss";
+@import "./styles/techno.scss";
 
 :root {
   --prim: white;
@@ -28,23 +29,3 @@ main {
 }
 
 // Dev component end
-
-// Techno component part start
-
-ul {
-  display: flex;
-  justify-content: space-around;
-  padding: 50px 0;
-  li {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-.svgImg {
-  width: 5vw;
-  height: auto;
-}
-
-// Techno component part end
