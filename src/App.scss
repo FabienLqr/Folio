@@ -6,11 +6,11 @@
 @import "./styles/main.scss";
 
 :root {
-  --prim: white;
+  --prim: grey;
 }
 
 * {
   margin: 0;
-  background-color: grey;
+  background-color: var(--prim);
   font-size: 1.25rem;
 }
