@@ -1,0 +1,23 @@
+.project {
+  border: #1c1b18 solid;
+  padding: 10px;
+  h2 {
+    color: black;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 50vw;
+      height: auto;
+      margin: 0 0 2vw 9vw;
+    }
+    p {
+      font-size: 1rem;
+    }
+    span {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
