@@ -17,9 +17,12 @@ footer {
       box-shadow: none;
       color: inherit;
       .footImg {
-        width: 3rem;
+        width: 2rem;
         height: auto;
       }
+    }
+    .footSpan {
+      font-size: 1rem;
     }
   }
 }
