@@ -4,9 +4,15 @@ function Nav() {
   return (
     <>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/me">Me</Link>
+        <Link to="/">
+          <button>Home</button>
+        </Link>
+        <Link to="/projects">
+          <button>Projects</button>
+        </Link>
+        <Link to="/me">
+          <button>Me</button>
+        </Link>
       </nav>
       <main>
         <Outlet />
