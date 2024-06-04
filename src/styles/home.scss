@@ -7,9 +7,29 @@ main {
     h2 {
       color: rgb(190, 190, 7);
       text-align: center;
+      background-color: var(--sec);
     }
     h3 {
       color: rgb(1, 120, 1);
+      background-color: var(--sec);
+    }
+    p {
+      background-color: var(--sec);
+    }
+    figure {
+      background-color: var(--sec);
+      figcaption {
+        background-color: var(--sec);
+      }
+    }
+    ul {
+      background-color: var(--sec);
+      li {
+        background-color: var(--sec);
+        img {
+          background-color: var(--sec);
+        }
+      }
     }
   }
 }

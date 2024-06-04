@@ -5,16 +5,16 @@ import Techno from "../components/Techno";
 function Home() {
   return (
     <>
-      <section>
+      <section className="project">
         <h2>Qui suis-je?</h2>
         <Me />
       </section>
-      <section>
+      <section className="project">
         <h2>Pourquoi je veux devenir dev?</h2>
         <Dev />
       </section>
-      <section>
-        <h2>Quels sont les techno que j&apos;utilise?</h2>
+      <section className="project">
+        <h2>Quels sont les technos que j&apos;utilise?</h2>
         <Techno />
       </section>
     </>
