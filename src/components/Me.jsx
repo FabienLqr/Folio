@@ -4,8 +4,8 @@ function Me() {
       <h3>Les grandes lignes:</h3>
       <p>
         Je m&apos;appelle Fabien, je suis un developpeur web junior front-end,
-        pour le moment. J&apos;ai pour projet de devinir fullstack dans un
-        premier temps puis devenir devoloppeur. Avant d&apos;essayer de devenir
+        pour le moment. J&apos;ai pour projet de devenir fullstack dans un
+        premier temps puis devenir developpeur. Avant d&apos;essayer de devenir
         developpeur j&apos;ai fait plusieurs jobs alimentaire.
       </p>
       <h3>Que savoir d&apos;autre sur moi?</h3>
