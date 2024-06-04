@@ -9,11 +9,9 @@
 }
 
 header {
-  background-color: var(--prim);
   width: 99vw;
 
   h1 {
-    background-color: var(--prim);
     width: 99vw;
     display: flex;
     justify-content: center;
@@ -22,11 +20,7 @@ header {
 }
 
 nav {
-  background-color: var(--prim);
   width: 99vw;
-  a {
-    background-color: var(--prim);
-  }
 }
 
 // Main start
@@ -79,7 +73,7 @@ ul {
   background-image: url("https://cdn.pixabay.com/photo/2015/03/27/18/36/wall-695021_960_720.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  margin: 5vw 30vw;
+  margin: 5vw 30vw 12vw;
   padding: 30px;
   border-radius: 19px 19px 19px 19px;
   -webkit-border-radius: 19px 19px 19px 19px;
@@ -121,6 +115,10 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 
   p {
     display: flex;
