@@ -5,7 +5,11 @@ function Footer() {
   return (
     <footer>
       <p>
-        <a href="https://github.com/FabienLqr" className="footLink">
+        <a
+          href="https://github.com/FabienLqr"
+          className="footLink"
+          target="_blank"
+        >
           <img src={githubImg} className="footImg" />
         </a>
         <span className="footSpan">GitHub</span>
@@ -14,6 +18,7 @@ function Footer() {
         <a
           href="https://www.linkedin.com/in/fabien-laquerriere/"
           className="footLink"
+          target="_blank"
         >
           <img src={linkedinImg} className="footImg" />
         </a>
