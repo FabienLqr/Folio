@@ -1,5 +1,11 @@
+import hello from "../assets/Imgages/hello.gif";
+
 function Me() {
-  return <h2>Hello it&apos;s me</h2>;
+  return (
+    <section>
+      <img src={hello} />
+    </section>
+  );
 }
 
 export default Me;
