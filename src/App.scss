@@ -1,11 +1,12 @@
-@import "./styles/header.scss";
-@import "./styles/nav.scss";
-@import "./styles/footer.scss";
-@import "./styles/clicker.scss";
-@import "./styles/techno.scss";
-@import "./styles/main.scss";
-@import "./styles/home.scss";
-@import "./styles/dev.scss";
+@import "./styles/header.scss"; // Header style
+@import "./styles/nav.scss"; // Nav style
+@import "./styles/footer.scss"; // Footer style
+@import "./styles/clicker.scss"; // Clicker style
+@import "./styles/techno.scss"; // Techno style
+@import "./styles/main.scss"; // Main style
+@import "./styles/home.scss"; // Home style
+@import "./styles/dev.scss"; // Dev stye
+@import "./styles/projects.scss"; // Projects style
 
 :root {
   --prim: grey;
