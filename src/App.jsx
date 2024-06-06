@@ -14,7 +14,7 @@ function App() {
       <Nav />
       <section className="cnt">
         <h2 className="butSec">
-          {count > 100 ? "Incassable" : "Casse le mur"}
+          {count < 100 ? "Casse le mur" : "Incassable"}
         </h2>
         <button onClick={() => setCount((count) => count + 1)}>CLICK!</button>
         <p className="butSec">Tu as clicke sur le boutton {count} fois.</p>
