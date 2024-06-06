@@ -16,6 +16,16 @@
 
 * {
   margin: 0;
-  background-color: var(--prim);
   font-size: 1.25rem;
+}
+body {
+  background-image: url("./assets/Imgages/Capture\ d'écran\ 2024-06-06\ 153550.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cont {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
 }

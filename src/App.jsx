@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
+    <div className="cont">
       <header>
         <h1>Portfolio</h1>
       </header>
@@ -20,7 +20,7 @@ function App() {
         <p className="butSec">Tu as clicke sur le boutton {count} fois.</p>
       </section>
       <Footer />
-    </>
+    </div>
   );
 }
 
