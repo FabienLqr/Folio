@@ -2,6 +2,7 @@ import DragonFlyImg from "../assets/Imgages/DragonFly.png";
 import MapImg from "../assets/Imgages/Map.png";
 import StarWildImg from "../assets/Imgages/StarWild.png";
 import ECFImg from "../assets/Imgages/ecf.png";
+import sahImg from "../assets/Imgages/streetarthunter.png";
 
 import loadImg from "../assets/Imgages/load.jpg";
 
@@ -25,7 +26,7 @@ const projects = [
   {
     name: "Project 3: Street Art Hunter",
     type: "school",
-    img: loadImg,
+    img: sahImg,
     desc: "Sreet Art Hunter est un site qui a pour objectif de faire bouger les jeunes qui sont trop sur leur telephone en leur faisant decouvrir l'art a travers le stret art.",
     repo: "https://github.com/WildCodeSchool-2024-02/JS-RemoteFR-CrewDragon-P3-StreetArtHunter",
     deploy: "",
